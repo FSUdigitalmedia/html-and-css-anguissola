@@ -1,13 +1,37 @@
-body {
-    background-color: lightblue;
-    font-family: Arial, Helvetica, sans-serif;
+@font-face {
+    font-family: "Highway Gothic Narrow";
+    src: url(HWYGNRRW.TTF) format('truetype');
 }
 
+
+body {
+    background-image: url("bg3.PNG");
+    font-family: "Highway Gothic Narrow";
+    color: white;
+}
+
+
 h1 {
-    color:blue;
+    text-align: center;
+    font-size: 270px;
+}
+
+
+p {
+    padding: 0px;
+}
+
+
+.container {
     text-align: center;
 }
 
-p {
-    padding: 5px;
-}
+
+button {
+    background-color: peachpuff;
+    width: 100px;
+    font-size: 20px;
+    font-family: "Highway Gothic Narrow";
+    padding: 10px;
+    color: black;
+  }
